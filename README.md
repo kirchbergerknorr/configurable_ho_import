@@ -13,11 +13,11 @@ Add `require` and `repositories` sections to your composer.json as shown in exam
     ...
     
     "repositories": [
-        {"type": "git", "url": "https://github.com/kirchbergerknorr/Kirchbergerknorr_DuplicateOrders"},
+        {"type": "git", "url": "https://github.com/kirchbergerknorr/configurable_ho_import"},
     ],
     
     "require": {
-        "kirchbergerknorr/Kirchbergerknorr_DuplicateOrders": "*"
+        "kirchbergerknorr/configurable_ho_import": "*"
     },
     
     ...
