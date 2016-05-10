@@ -2,24 +2,24 @@
 <config>
     <modules>
         <Kirchbergerknorr_ConfigurableImport>
-            <version>0.1.1</version>
+            <version>0.1.2</version>
         </Kirchbergerknorr_ConfigurableImport>
     </modules>
     <global>
         <blocks>
-            <kk_configurable_import>
+            <configurable_import>
                 <class>Kirchbergerknorr_ConfigurableImport_Block</class>
-            </kk_configurable_import>
+            </configurable_import>
         </blocks>
         <helpers>
-            <kk_configurable_import>
+            <configurable_import>
                 <class>Kirchbergerknorr_ConfigurableImport_Helper</class>
-            </kk_configurable_import>
+            </configurable_import>
         </helpers>
         <models>
-            <kk_configurable_import>
+            <configurable_import>
                 <class>Kirchbergerknorr_ConfigurableImport_Model</class>
-            </kk_configurable_import>
+            </configurable_import>
             <ho_import>
                 <rewrite>
                     <mapper>Kirchbergerknorr_ConfigurableImport_Model_Mapper</mapper>
@@ -49,9 +49,9 @@
                             <children>
                                 <config>
                                     <children>
-                                        <kk_configurable_import>
-                                            <title>Import</title>
-                                        </kk_configurable_import>
+                                        <configurable_import>
+                                            <title>Configurable Ho_Import</title>
+                                        </configurable_import>
                                     </children>
                                 </config>
                             </children>

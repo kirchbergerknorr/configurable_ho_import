@@ -86,7 +86,7 @@ class Kirchbergerknorr_ConfigurableImport_Model_Mapper extends Ho_Import_Model_M
 
     protected function getAttributes($profile)
     {
-        $config = unserialize(Mage::getStoreConfig('kk_configurable_import/general/custom_attr'));
+        $config = unserialize(Mage::getStoreConfig('configurable_import/general/custom_attr'));
 
         if ($config) {
             foreach ($config as $set => $configArray) {

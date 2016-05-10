@@ -18,7 +18,7 @@
         </kirchbergerknorr>
     </tabs>
     <sections>
-        <kk_configurable_import>
+        <configurable_import>
             <label>Import</label>
             <tab>kirchbergerknorr</tab>
             <frontend_type>text</frontend_type>
@@ -47,6 +47,6 @@
                     </fields>
                 </general>
             </groups>
-        </kk_configurable_import>
+        </configurable_import>
     </sections>
 </config>

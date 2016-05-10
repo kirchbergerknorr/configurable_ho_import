@@ -14,7 +14,7 @@
     <modules>
         <Kirchbergerknorr_ConfigurableImport>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Kirchbergerknorr_ConfigurableImport>
     </modules>
 </config>
