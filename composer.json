@@ -1,0 +1,17 @@
+{
+	"name": "kirchbergerknorr/configurable_ho_import",
+	"license": "OSL-3.0",
+	"type": "magento-module",
+	"description": "A Magento Module that extends Ho_Import to make profiles configurable in backend.",
+	"homepage": "https://github.com/kirchbergerknorr/configurable_ho_import",
+	"require": {
+		"magento-hackathon/magento-composer-installer": "*",
+		"ho-nl/ho_import": "*"
+	},
+	"authors":[
+		{
+			"name":"Benedikt Volkmer",
+			"email":"bv@kirchbergerknorr.de"
+		}
+	]
+}
