@@ -19,7 +19,7 @@
     </tabs>
     <sections>
         <configurable_import>
-            <label>Import</label>
+            <label>Configurable Import</label>
             <tab>kirchbergerknorr</tab>
             <frontend_type>text</frontend_type>
             <show_in_default>1</show_in_default>
