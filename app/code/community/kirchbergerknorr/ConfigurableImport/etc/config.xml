@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Kirchbergerknorr_ConfigurableImport>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Kirchbergerknorr_ConfigurableImport>
     </modules>
     <global>
@@ -49,9 +49,9 @@
                             <children>
                                 <config>
                                     <children>
-                                        <kirchbergerknorr_import>
+                                        <kk_configurable_import>
                                             <title>Import</title>
-                                        </kirchbergerknorr_import>
+                                        </kk_configurable_import>
                                     </children>
                                 </config>
                             </children>
