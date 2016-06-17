@@ -40,8 +40,11 @@ class Kirchbergerknorr_ConfigurableImport_Block_Resource_CustomAttributes extend
         $inputName  = $this->getElement()->getName() . '[#{_id}][' . $columnName . ']';
 
         if ($columnName == 'attribute') {
-            $attributes = Mage::getResourceModel('catalog/product_attribute_collection')
-                ->getItems();
+            Add sorting for $attributeCollection = Mage::getResourceModel('catalog/product_attribute_collection')
+                ->setOrder('attribute_code', 'ASC')
+                ->load();
+
+            $attributes = $attributeCollection->getItems();
 
             $rendered = '<select name="'.$inputName.'[]" id="' . $columnName . '#{_id}" size="10" multiple="multiple">';
             foreach($attributes as $attribute) {
