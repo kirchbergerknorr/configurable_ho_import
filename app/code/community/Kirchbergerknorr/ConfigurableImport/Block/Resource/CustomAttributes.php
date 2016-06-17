@@ -40,7 +40,7 @@ class Kirchbergerknorr_ConfigurableImport_Block_Resource_CustomAttributes extend
         $inputName  = $this->getElement()->getName() . '[#{_id}][' . $columnName . ']';
 
         if ($columnName == 'attribute') {
-            Add sorting for $attributeCollection = Mage::getResourceModel('catalog/product_attribute_collection')
+            $attributeCollection = Mage::getResourceModel('catalog/product_attribute_collection')
                 ->setOrder('attribute_code', 'ASC')
                 ->load();
 
